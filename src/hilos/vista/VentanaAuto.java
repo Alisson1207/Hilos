@@ -6,7 +6,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
+import javax.swing.*;
 public class VentanaAuto extends JFrame {
     private JTextField tf_marca;
     private JTextField tf_modelo;
@@ -87,5 +87,7 @@ public class VentanaAuto extends JFrame {
             }
         });
     }
+
+
 
 }
